@@ -7,14 +7,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="MovementHistory\Commands\" />
-      <Folder Include="MovementHistory\Dto\" />
-      <Folder Include="MovementHistory\Queries\" />
-      <Folder Include="MovementHistory\Validations\" />
-      <Folder Include="Wallet\Commands\" />
-      <Folder Include="Wallet\Dto\" />
-      <Folder Include="Wallet\Queries\" />
-      <Folder Include="Wallet\Validations\" />
+      <ProjectReference Include="..\Wallet.Domain\Wallet.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="11.11.0" />
+      <PackageReference Include="MediatR" Version="12.5.0" />
+      <PackageReference Include="MediatR.Contracts" Version="2.0.1" />
     </ItemGroup>
 
 </Project>

@@ -15,4 +15,8 @@
       <None Remove="Wallet.API.http" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Wallet.Application\Wallet.Application.csproj" />
+    </ItemGroup>
+
 </Project>

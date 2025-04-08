@@ -9,3 +9,8 @@ C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wa
 C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Application\obj\Debug\net8.0\refint\Wallet.Application.dll
 C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Application\obj\Debug\net8.0\Wallet.Application.pdb
 C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Application\obj\Debug\net8.0\ref\Wallet.Application.dll
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Application\bin\Debug\net8.0\Wallet.Domain.dll
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Application\bin\Debug\net8.0\Wallet.Domain.pdb
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Application\obj\Debug\net8.0\Wallet.Application.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Application\obj\Debug\net8.0\Wallet.Application.sourcelink.json
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Application\obj\Debug\net8.0\Wallet.A.B937E800.Up2Date

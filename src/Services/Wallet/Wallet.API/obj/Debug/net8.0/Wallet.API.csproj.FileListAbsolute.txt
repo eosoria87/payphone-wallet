@@ -31,3 +31,11 @@ C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wa
 C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.API\obj\Debug\net8.0\Wallet.API.pdb
 C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.API\obj\Debug\net8.0\Wallet.API.genruntimeconfig.cache
 C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.API\obj\Debug\net8.0\ref\Wallet.API.dll
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.API\obj\Debug\net8.0\Wallet.API.sourcelink.json
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.API\bin\Debug\net8.0\MediatR.dll
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.API\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.API\bin\Debug\net8.0\Wallet.Application.dll
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.API\bin\Debug\net8.0\Wallet.Domain.dll
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.API\bin\Debug\net8.0\Wallet.Application.pdb
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.API\bin\Debug\net8.0\Wallet.Domain.pdb

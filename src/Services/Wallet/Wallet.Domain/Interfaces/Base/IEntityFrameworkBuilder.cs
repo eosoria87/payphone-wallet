@@ -1,7 +1,7 @@
 using System.Linq.Expressions;
 using Wallet.Domain.Specification;
 
-namespace Wallet.Domain.Interfaces;
+namespace Wallet.Domain.Interfaces.Base;
 
 public interface IEntityFrameworkBuilder<T> where T : class
 {

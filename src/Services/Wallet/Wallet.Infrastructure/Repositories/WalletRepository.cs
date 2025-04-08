@@ -1,4 +1,5 @@
 using Wallet.Domain.Interfaces;
+using Wallet.Domain.Interfaces.Base;
 using Wallet.Domain.SeedWork;
 using Wallet.Infrastructure.Repositories.Base;
 
@@ -16,4 +17,12 @@ public class WalletRepository : EntitySqlRepository<Domain.Entities.Wallet>, IWa
     }
 
     public IUnitOfWork UnitOfWork => _dbContext;
+    
+    
+    public async Task<IReadOnlyCollection<Domain.Entities.Wallet>> GetWalletsByDocument(string documentId)
+    {
+        var wallets =  _dbContext.Wallet.Where(x => x.DocumentId.Equals(documentId)).ToList();
+
+        return wallets;
+    }
 }

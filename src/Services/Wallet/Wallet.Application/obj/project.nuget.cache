@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "UGXj/EvCx4Y=",
+  "dgSpecHash": "QK8FcObImpg=",
   "success": true,
   "projectFilePath": "C:\\Users\\USUARIO\\Documents\\Projects\\pay-p\\payphone-wallet\\src\\Services\\Wallet\\Wallet.Application\\Wallet.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\USUARIO\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\mediatr\\12.5.0\\mediatr.12.5.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -24,7 +24,7 @@ public class WalletDbContext : DbContext, IUnitOfWork
     }
 
     public DbSet<Domain.Entities.Wallet> Wallet { get; set; }
-    public DbSet<MovementHistory> MovementHistory { get; set; }
+    public DbSet<Transaction> Transactions { get; set; }
 
     public async Task<bool> SaveEntitiesAsync(CancellationToken cancellationToken = default)
     {
@@ -35,6 +35,6 @@ public class WalletDbContext : DbContext, IUnitOfWork
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfiguration(new WalletConfig());
-        modelBuilder.ApplyConfiguration(new MovementHistoryConfig());
+        modelBuilder.ApplyConfiguration(new TransactionConfig());
     }
 }
