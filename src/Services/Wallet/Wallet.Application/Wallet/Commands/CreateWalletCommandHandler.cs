@@ -8,12 +8,10 @@ public class CreateWalletCommandHandler : IRequestHandler<CreateWalletCommand, P
 {
     #region Constructor & Properties
 
-    private readonly IMediator _mediator;
     private readonly IWalletRepository _walletRepository;
 
-    public CreateWalletCommandHandler(IMediator mediator, IWalletRepository walletRepository)
+    public CreateWalletCommandHandler(IWalletRepository walletRepository)
     {
-        _mediator = mediator;
         _walletRepository = walletRepository;
     }
 
