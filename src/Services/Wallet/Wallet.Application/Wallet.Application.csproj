@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="MovementHistory\Commands\" />
+      <Folder Include="MovementHistory\Dto\" />
+      <Folder Include="MovementHistory\Queries\" />
+      <Folder Include="MovementHistory\Validations\" />
+      <Folder Include="Wallet\Commands\" />
+      <Folder Include="Wallet\Dto\" />
+      <Folder Include="Wallet\Queries\" />
+      <Folder Include="Wallet\Validations\" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0F3D0B2C-4F14-4925-B856-0EC8813C5838}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{711404B5-5AFE-4337-82B7-EE7BFA199F75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wallet", "Wallet", "{49824EAC-9F2D-4142-A084-4C0B61C63530}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wallet.API", "src\Services\Wallet\Wallet.API\Wallet.API.csproj", "{BF422332-2677-4501-AA25-D668AE2D6AB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wallet.Application", "src\Services\Wallet\Wallet.Application\Wallet.Application.csproj", "{BE9E210D-5E7E-43B0-94A8-D8F4F51561F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wallet.Domain", "src\Services\Wallet\Wallet.Domain\Wallet.Domain.csproj", "{1BF93CB5-DFF5-48A9-ABD8-4548A60B708E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wallet.Infrastructure", "src\Services\Wallet\Wallet.Infrastructure\Wallet.Infrastructure.csproj", "{45C767E8-F4D4-44B6-9CAC-EF2E7E474669}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{711404B5-5AFE-4337-82B7-EE7BFA199F75} = {0F3D0B2C-4F14-4925-B856-0EC8813C5838}
+		{49824EAC-9F2D-4142-A084-4C0B61C63530} = {711404B5-5AFE-4337-82B7-EE7BFA199F75}
+		{BF422332-2677-4501-AA25-D668AE2D6AB0} = {49824EAC-9F2D-4142-A084-4C0B61C63530}
+		{BE9E210D-5E7E-43B0-94A8-D8F4F51561F3} = {49824EAC-9F2D-4142-A084-4C0B61C63530}
+		{1BF93CB5-DFF5-48A9-ABD8-4548A60B708E} = {49824EAC-9F2D-4142-A084-4C0B61C63530}
+		{45C767E8-F4D4-44B6-9CAC-EF2E7E474669} = {49824EAC-9F2D-4142-A084-4C0B61C63530}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF422332-2677-4501-AA25-D668AE2D6AB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF422332-2677-4501-AA25-D668AE2D6AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF422332-2677-4501-AA25-D668AE2D6AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF422332-2677-4501-AA25-D668AE2D6AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE9E210D-5E7E-43B0-94A8-D8F4F51561F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9E210D-5E7E-43B0-94A8-D8F4F51561F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9E210D-5E7E-43B0-94A8-D8F4F51561F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9E210D-5E7E-43B0-94A8-D8F4F51561F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF93CB5-DFF5-48A9-ABD8-4548A60B708E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF93CB5-DFF5-48A9-ABD8-4548A60B708E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF93CB5-DFF5-48A9-ABD8-4548A60B708E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF93CB5-DFF5-48A9-ABD8-4548A60B708E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45C767E8-F4D4-44B6-9CAC-EF2E7E474669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C767E8-F4D4-44B6-9CAC-EF2E7E474669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C767E8-F4D4-44B6-9CAC-EF2E7E474669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C767E8-F4D4-44B6-9CAC-EF2E7E474669}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

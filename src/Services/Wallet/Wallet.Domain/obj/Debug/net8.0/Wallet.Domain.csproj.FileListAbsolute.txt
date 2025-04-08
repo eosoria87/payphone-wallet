@@ -1,0 +1,11 @@
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Domain\bin\Debug\net8.0\Wallet.Domain.deps.json
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Domain\bin\Debug\net8.0\Wallet.Domain.dll
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Domain\bin\Debug\net8.0\Wallet.Domain.pdb
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Domain\obj\Debug\net8.0\Wallet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Domain\obj\Debug\net8.0\Wallet.Domain.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Domain\obj\Debug\net8.0\Wallet.Domain.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Domain\obj\Debug\net8.0\Wallet.Domain.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Domain\obj\Debug\net8.0\Wallet.Domain.dll
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Domain\obj\Debug\net8.0\refint\Wallet.Domain.dll
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Domain\obj\Debug\net8.0\Wallet.Domain.pdb
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Domain\obj\Debug\net8.0\ref\Wallet.Domain.dll

@@ -1,0 +1,15 @@
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Infrastructure\bin\Debug\net8.0\Wallet.Infrastructure.deps.json
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Infrastructure\bin\Debug\net8.0\Wallet.Infrastructure.dll
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Infrastructure\bin\Debug\net8.0\Wallet.Infrastructure.pdb
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Infrastructure\bin\Debug\net8.0\Wallet.Domain.dll
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Infrastructure\bin\Debug\net8.0\Wallet.Domain.pdb
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Infrastructure\obj\Debug\net8.0\Wallet.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Infrastructure\obj\Debug\net8.0\Wallet.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Infrastructure\obj\Debug\net8.0\Wallet.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Infrastructure\obj\Debug\net8.0\Wallet.Infrastructure.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Infrastructure\obj\Debug\net8.0\Wallet.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Infrastructure\obj\Debug\net8.0\Wallet.I.AE2D343B.Up2Date
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Infrastructure\obj\Debug\net8.0\Wallet.Infrastructure.dll
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Infrastructure\obj\Debug\net8.0\refint\Wallet.Infrastructure.dll
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Infrastructure\obj\Debug\net8.0\Wallet.Infrastructure.pdb
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Infrastructure\obj\Debug\net8.0\ref\Wallet.Infrastructure.dll
