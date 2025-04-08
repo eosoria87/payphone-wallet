@@ -35,22 +35,6 @@ public class ProcessResponse<T> : ProcessResponse
         };
     }
         
-    public static ProcessResponse<T> Error(int code, string message)
-    {
-        var processErrorResponse = new ErrorResponse
-        {
-            Code = code,
-            Message = message,
-            Details = message
-        };
-                
-        return new ProcessResponse<T>
-        {
-            IsSuccess = false,
-            ErrorResponse = processErrorResponse
-        };
-    }
-        
     public static ProcessResponse<T> Error(ProcessResponse processResponse)
     {
         return new ProcessResponse<T>
@@ -59,49 +43,5 @@ public class ProcessResponse<T> : ProcessResponse
             ErrorResponse = processResponse.ErrorResponse
         };
     }
-        
-    public static ProcessResponse<T> Error(Exception exception)
-    {
-        var processErrorResponse = new ErrorResponse
-        {
-            Code = exception.GetHashCode(),
-            Message = exception.Message,
-        };
-            
-        return new ProcessResponse<T>
-        {
-            IsSuccess = false,
-            ErrorResponse = processErrorResponse
-        };
-    }
-        
-    public static ProcessResponse<T> Error(string message, Exception exception)
-    {
-        var processErrorResponse = new ErrorResponse
-        {
-            Code = exception.GetHashCode(),
-            Message = message,
-        };
-            
-        return new ProcessResponse<T>
-        {
-            IsSuccess = false,
-            ErrorResponse = processErrorResponse
-        };
-    }
-        
-    public static ProcessResponse<T> Error(int code, string message, Exception exception)
-    {
-        var processErrorResponse = new ErrorResponse
-        {
-            Code = code,
-            Message = message,
-        };
-            
-        return new ProcessResponse<T>
-        {
-            IsSuccess = false,
-            ErrorResponse = processErrorResponse
-        };
-    }
+   
 }

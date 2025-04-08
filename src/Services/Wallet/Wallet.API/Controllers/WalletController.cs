@@ -2,6 +2,7 @@ using System.Net;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Wallet.API.Dtos.Requests;
+using Wallet.Application.Wallet.Dto;
 using Wallet.Domain.Models;
 
 namespace Wallet.API.Controllers;
@@ -161,6 +162,42 @@ public class WalletController : ControllerBase
     {
         var request = new GetWalletRequest();
         var query = request.ToApplicationRequest(id);
+
+        _logger.LogInformation(
+            "----- Sending query: {QueryName} {@Query})",
+            nameof(query),
+            query);
+
+        var response = await _mediator.Send(query);
+        if (!response.IsSuccess)
+        {
+            return BadRequest(response.ErrorResponse);
+        }
+
+        return Ok(response.Value);
+    }
+
+
+    /// <summary>
+    /// Get wallet by document id
+    /// </summary>
+    /// <remarks>
+    /// Sample request:
+    /// 
+    ///     GET  /wallets/:documentId
+    /// </remarks>
+    /// <param name="documentId"></param>
+    /// <returns></returns>
+    [HttpGet]
+    [ProducesResponseType((int)HttpStatusCode.OK)]
+    [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+    [ProducesResponseType((int)HttpStatusCode.NotFound)]
+    [Produces(typeof(List<WalletResponse>))]
+    [ProducesErrorResponseType(typeof(ErrorResponse))]
+    public async Task<IActionResult> GetWallets([FromQuery] string documentId)
+    {
+        var request = new GetWalletsRequest();
+        var query = request.ToApplicationRequest(documentId);
 
         _logger.LogInformation(
             "----- Sending query: {QueryName} {@Query})",

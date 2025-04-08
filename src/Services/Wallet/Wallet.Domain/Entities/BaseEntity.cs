@@ -8,21 +8,20 @@ public class BaseEntity
 
     protected BaseEntity()
     {
-        //Id = Guid.NewGuid();
         CreatedAt = DateTime.UtcNow;
         UpdatedAt = DateTime.UtcNow; 
     }
     
-    protected BaseEntity(Guid id)
+    protected BaseEntity(int id)
     {
-        //Id = id;
+        Id = id;
         CreatedAt = DateTime.UtcNow;
         UpdatedAt = DateTime.UtcNow; 
     }
     
-    protected BaseEntity(Guid id, DateTime createdAt, DateTime updatedAt)
+    protected BaseEntity(int id, DateTime createdAt, DateTime updatedAt)
     {
-        //qId = id;
+        Id = id;
         CreatedAt = createdAt;
         UpdatedAt = updatedAt; 
     }

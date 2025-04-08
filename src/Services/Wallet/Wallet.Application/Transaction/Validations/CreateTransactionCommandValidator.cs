@@ -1,7 +1,7 @@
 using FluentValidation;
-using Wallet.Application.TransactionWallet.Commands;
+using Wallet.Application.Transaction.Commands;
 
-namespace Wallet.Application.TransactionWallet.Validations;
+namespace Wallet.Application.Transaction.Validations;
 
 public class CreateTransactionCommandValidator: AbstractValidator<CreateTransactionCommand>
 {

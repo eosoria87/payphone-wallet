@@ -1,7 +1,7 @@
 using MediatR;
 using Wallet.Domain.Models;
 
-namespace Wallet.Application.TransactionWallet.Commands;
+namespace Wallet.Application.Transaction.Commands;
 
 public class CreateTransactionCommand: IRequest<ProcessResponse<bool>>
 {

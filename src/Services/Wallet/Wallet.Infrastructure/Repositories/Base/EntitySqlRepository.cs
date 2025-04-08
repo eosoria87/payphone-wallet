@@ -9,12 +9,10 @@ public class EntitySqlRepository<T> : IEntitySqlRepository<T>
     where T : BaseEntity
 {
     private readonly DbContext _dbContext;
-    private readonly IEntityFrameworkBuilder<T> _entityFrameworkBuilder;
 
-    protected EntitySqlRepository(DbContext dbContext, IEntityFrameworkBuilder<T> entityFrameworkBuilder)
+    protected EntitySqlRepository(DbContext dbContext)
     {
         _dbContext = dbContext;
-        _entityFrameworkBuilder = entityFrameworkBuilder;
     }
 
     public virtual async Task<T?> GetById(int id)
@@ -42,5 +40,4 @@ public class EntitySqlRepository<T> : IEntitySqlRepository<T>
     {
         _dbContext.Set<T>().Remove(entity);
     }
-
 }

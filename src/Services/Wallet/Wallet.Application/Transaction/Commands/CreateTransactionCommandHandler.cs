@@ -2,7 +2,7 @@ using MediatR;
 using Wallet.Domain.Interfaces;
 using Wallet.Domain.Models;
 
-namespace Wallet.Application.TransactionWallet.Commands;
+namespace Wallet.Application.Transaction.Commands;
 
 public class CreateTransactionCommandHandler : IRequestHandler<CreateTransactionCommand, ProcessResponse<bool>>
 {

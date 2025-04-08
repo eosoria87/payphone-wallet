@@ -9,9 +9,8 @@ public class WalletRepository : EntitySqlRepository<Domain.Entities.Wallet>, IWa
 {
     private readonly WalletDbContext _dbContext;
 
-    public WalletRepository(WalletDbContext dbContext,
-        IEntityFrameworkBuilder<Domain.Entities.Wallet> entityFrameworkBuilder)
-        : base(dbContext, entityFrameworkBuilder)
+    public WalletRepository(WalletDbContext dbContext)
+        : base(dbContext)
     {
         _dbContext = dbContext;
     }

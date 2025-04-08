@@ -1,4 +1,4 @@
-namespace Wallet.Application.TransactionWallet.Dto;
+namespace Wallet.Application.Transaction.Dto;
 
 public class TransactionResponse
 {

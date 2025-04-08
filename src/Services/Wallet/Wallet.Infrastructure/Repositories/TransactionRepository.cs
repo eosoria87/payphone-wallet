@@ -1,5 +1,4 @@
 using Wallet.Domain.Interfaces;
-using Wallet.Domain.Interfaces.Base;
 using Wallet.Domain.SeedWork;
 using Wallet.Infrastructure.Repositories.Base;
 
@@ -9,9 +8,8 @@ public class TransactionRepository: EntitySqlRepository<Domain.Entities.Transact
 {
     private readonly WalletDbContext _dbContext;
 
-    public TransactionRepository(WalletDbContext dbContext,
-        IEntityFrameworkBuilder<Domain.Entities.Transaction> entityFrameworkBuilder)
-        : base(dbContext, entityFrameworkBuilder)
+    public TransactionRepository(WalletDbContext dbContext)
+        : base(dbContext)
     {
         _dbContext = dbContext;
     }

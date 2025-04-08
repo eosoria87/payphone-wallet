@@ -31,7 +31,7 @@ public class UpdateWalletCommandHandler : IRequestHandler<UpdateWalletCommand, P
         validateWallet.Name = command.Name;
         validateWallet.Balance = command.Balance;
 
-        _walletRepository.Remove(validateWallet);
+        _walletRepository.Update(validateWallet);
         await _walletRepository.UnitOfWork.SaveEntitiesAsync(cancellationToken);
 
         return ProcessResponse.Success(true);

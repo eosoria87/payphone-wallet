@@ -1,9 +1,9 @@
 using MediatR;
-using Wallet.Application.TransactionWallet.Dto;
+using Wallet.Application.Transaction.Dto;
 using Wallet.Domain.Interfaces;
 using Wallet.Domain.Models;
 
-namespace Wallet.Application.TransactionWallet.Queries;
+namespace Wallet.Application.Transaction.Queries;
 
 public class ReadTransactionQueryHandler : IRequestHandler<ReadTransactionQuery,
     ProcessResponse<List<TransactionResponse>>>

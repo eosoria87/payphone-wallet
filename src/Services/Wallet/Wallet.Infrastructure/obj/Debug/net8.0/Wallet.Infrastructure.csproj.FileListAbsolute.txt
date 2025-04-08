@@ -14,3 +14,5 @@ C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wa
 C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Infrastructure\obj\Debug\net8.0\Wallet.Infrastructure.pdb
 C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Infrastructure\obj\Debug\net8.0\ref\Wallet.Infrastructure.dll
 C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Infrastructure\obj\Debug\net8.0\Wallet.Infrastructure.sourcelink.json
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Infrastructure\bin\Debug\net8.0\Wallet.Infrastructure.runtimeconfig.json
+C:\Users\USUARIO\Documents\Projects\pay-p\payphone-wallet\src\Services\Wallet\Wallet.Infrastructure\obj\Debug\net8.0\Wallet.Infrastructure.genruntimeconfig.cache
